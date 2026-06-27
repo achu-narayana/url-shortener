@@ -1,7 +1,13 @@
-﻿.venv/
+# Environments
+.venv/
 .env
+
+# Database data folder
+pg_data/
+
+# Python cache files
 __pycache__/
 *.pyc
+
+# Pytest cache
 .pytest_cache/
-.vscode/
-*.db
