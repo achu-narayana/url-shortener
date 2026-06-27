@@ -57,6 +57,8 @@ A custom URL shortener addresses these challenges by transforming long links int
 
 The following diagram illustrates the flow of requests from the client down to the database:
 
+![System Architecture](assets/system_architecture.png)
+
 ```mermaid
 graph TD
     User([User Client])
