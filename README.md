@@ -204,4 +204,4 @@ Open `http://localhost:5500` in your web browser.
 
 **Surawi Archana Reddy**
 *   **GitHub:** [@achu-narayana](https://github.com/achu-narayana)
-*   **LinkedIn:** [Surawi Archana Reddy](https://www.linkedin.com/in/archana-surawi)
+*   **LinkedIn:** [https://www.linkedin.com/in/surawi-archana-4219a6344/)
