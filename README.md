@@ -90,7 +90,7 @@ graph TD
 *Maintains a session list of recently shortened links, featuring individual Copy and Analytics lookup hooks.*
 
 ### 4. Live Analytics
-![Analytics Results](assets/url_shortened_and_history.png)
+![Analytics Results](assets/analytics_results.png)
 *Detailed statistics displaying total click counts, short codes, creation timestamps, and target long URLs.*
 
 ### 5. Swagger Documentation
