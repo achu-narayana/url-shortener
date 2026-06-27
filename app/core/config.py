@@ -10,6 +10,7 @@ class Settings(BaseSettings):
 
     DATABASE_URL: str
     REDIS_URL: str
+    FRONTEND_URL: str = "http://localhost:5500"
     SHORT_CODE_LENGTH: int = 7
     BASE_URL: str = "http://localhost:8000"
     CACHE_TTL_SECONDS: int = 3600

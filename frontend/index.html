@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🔗</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>URL Shortener</h1>
+        
+        <!-- Shortening Section -->
+        <section class="shorten-section">
+            <input type="url" id="long-url" placeholder="Enter long URL here..." required>
+            <button id="shorten-btn">Shorten</button>
+            <div id="result"></div>
+        </section>
+
+        <!-- Session History Section -->
+        <section class="history-section">
+            <h2>Recent Links</h2>
+            <div id="recent-links"></div>
+        </section>
+
+        <!-- Analytics Section -->
+        <section class="analytics-section">
+            <h2>Track Analytics</h2>
+            <input type="text" id="analytics-code" placeholder="Enter short code..." required>
+            <button id="analytics-btn">Get Analytics</button>
+            <div id="analytics-result"></div>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

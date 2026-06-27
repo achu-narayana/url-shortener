@@ -61,3 +61,14 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 The API documentation will be available at `http://localhost:8000/docs`.
+
+## Running the frontend
+
+Since this is plain HTML/CSS/JS with no build step, it can't just be opened directly as a file:// URL because fetch() calls to the backend may be blocked depending on browser security settings for local files — instead, serve it with a simple local server. From inside the frontend folder, run:
+
+```bash
+python -m http.server 5500
+```
+
+Then open `http://localhost:5500` in the browser. Note that the backend (uvicorn) must already be running on port 8000, and Postgres/Redis must be running too, before testing the frontend.
+
