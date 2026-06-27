@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://url-shortener-es94.onrender.com";
 
 /**
  * Sends a POST request to shorten a URL.
